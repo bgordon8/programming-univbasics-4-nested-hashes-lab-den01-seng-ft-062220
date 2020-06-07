@@ -96,6 +96,7 @@ def changing_alan
   # return the entire updated hash
 
 	programmer_hash = 
+
  		{
       :grace_hopper => {
         :known_for => "COBOL",
@@ -110,6 +111,7 @@ def changing_alan
         :languages => ["C"]
       }
     }
+    alans_new_info = :alan_kay[:known_for => "GUI"]
 
 end
 
@@ -132,5 +134,6 @@ def adding_to_dennis
         :languages => ["C"]
       }
     }
+    
 
 end
